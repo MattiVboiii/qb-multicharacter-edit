@@ -1,7 +1,22 @@
 # qb-multicharacter
 Multi Character Feature for QB-Core Framework :people_holding_hands:
 
-Added support for setting default number of characters per player per Rockstar license
+## Preview
+(It's translated to Dutch, because I have a Dutch server)
+![image](https://cdn.discordapp.com/attachments/1277731701476561027/1277731702541647953/image.png?ex=66cee4a0&is=66cd9320&hm=3ccb3421380fbf9c23e85e25210e6b0d56c90a6b92befa32fd9ac8800866fdaf&)
+![image](https://cdn.discordapp.com/attachments/1277731701476561027/1277731703204614215/image.png?ex=66cee4a1&is=66cd9321&hm=465b44d7c3884a4e8648ba6c12a68b4f5650559b41a615112cbae17e76448e0b&)
+
+## Changes/Edits
+### 27-08-2024
+- Added color changes
+- Added borders around names
+- Added hover effects for names
+- Made the scrollbar smaller
+- Fixed width & height
+
+## Future Plans
+- Align the headers more horizontally
+- Make some font changes?
 
 # License
 
@@ -28,10 +43,6 @@ Added support for setting default number of characters per player per Rockstar l
 - [qb-apartments](https://github.com/qbcore-framework/qb-apartments) - For giving the player a apartment after creating a character.
 - [qb-clothing](https://github.com/qbcore-framework/qb-clothing) - For the character creation and saving outfits.
 - [qb-weathersync](https://github.com/qbcore-framework/qb-weathersync) - For adjusting the weather while player is creating a character.
-
-## Screenshots
-![Character Selection](https://cdn.discordapp.com/attachments/934470871333105674/1014215694394589294/unknown.png)
-![Character Registration](https://cdn.discordapp.com/attachments/934470871333105674/1014215687700488304/unknown.png)
 
 ## Features
 - Ability to create up to 5 characters and delete any character.
