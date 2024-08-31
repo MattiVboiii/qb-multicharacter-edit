@@ -129,7 +129,7 @@
                                 :placeholder="translations['firstname']"
                                 solo
                                 hide-details="auto"
-                                background-color="#32456759"
+                                background-color="rgba(23,23,23, 80%)"
                                 v-model="registerData.firstname"
                                 :disabled="!show.register"
                             ></v-text-field>
@@ -137,7 +137,7 @@
                                 :placeholder="translations['lastname']"
                                 solo
                                 hide-details="auto"
-                                background-color="#32456759"
+                                background-color="rgba(23,23,23, 80%)"
                                 v-model="registerData.lastname"
                                 :disabled="!show.register"
                             ></v-text-field>
@@ -146,7 +146,7 @@
                                 :placeholder="translations['nationality']"
                                 solo
                                 hide-details="auto"
-                                background-color="#32456759"
+                                background-color="rgba(23,23,23, 80%)"
                                 v-model="registerData.nationality"
                                 :disabled="!show.register"
                             ></v-text-field>
@@ -156,7 +156,7 @@
                                 :placeholder="translations['nationality']"
                                 :items="nationalities"
                                 hide-details="auto"
-                                background-color="#32456759"
+                                background-color="rgba(23,23,23, 80%)"
                                 v-ripple
                                 v-model="registerData.nationality"
                                 :disabled="!show.register"
@@ -166,7 +166,7 @@
                                 :placeholder="translations['gender']"
                                 :items="[translations['male'], translations['female']]"
                                 hide-details="auto"
-                                background-color="#32456759"
+                                background-color="rgba(23,23,23, 80%)"
                                 v-ripple
                                 v-model="registerData.gender"
                                 :disabled="!show.register"
@@ -187,7 +187,7 @@
                                         v-bind="attrs"
                                         v-on="on"
                                         solo
-                                        background-color="#32456759"
+                                        background-color="rgba(23,23,23, 80%)"
                                         :disabled="!show.register"
                                     ></v-text-field>
                                 </template>
